@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+
+import React, {useEffect, useState} from 'react';
 import './App.css';
+import type FamilyMember from './components/FamilyMember';
+import AddChildForm
+	from './components/AddChildForm';
+import FindRelationForm from './components/FindRelationForm';
+import FindRelationshipForm from './components/FindRelationshipForm';
+import MotherwithMostDaughtersForm from './components/MotherwithMostDaughtersForm';
+import generateTree from './util/generateTree';
+import breathFirstSearch from './util/search';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [tree, setTree] = useState<FamilyMember | undefined>();
+
+	useEffect(() => {
+		const fetchData = async () => {
+			const response = await fetch('inputfile.txt');
+			const myText = await response.text();
+			const theTree = generateTree(myText);
+			setTree(theTree);
+		};
+
+		void fetchData();
+	}, []);
+
+	return (
+		<div className='App'>
+			<FindRelationForm tree={tree}/>
+			<AddChildForm tree={tree} />
+			<MotherwithMostDaughtersForm tree={tree} />
+			<FindRelationshipForm tree={tree}/>
+		</div>
+	);
 }
 
 export default App;

@@ -1,0 +1,173 @@
+King Shan
+Male
+undefined
+Queen Anga
+Ish, Chit, Vich, Satya
+
+Queen Anga
+Female
+undefined
+King Shan
+Ish, Chit, Vich, Satya
+
+Ish
+Male
+Queen Anga, King Shan
+undefined
+undefined
+
+Chit
+Male
+Queen Anga, King Shan
+Ambi
+Drita, Vrita
+
+Ambi
+Female
+undefined
+Chit
+Drita, Vrita
+
+Vich
+Male
+Queen Anga, King Shan
+Lika
+Vila, Chika
+
+Lika
+Female
+undefined
+Vich
+Vila, Chika
+
+Satya
+Female
+Queen Anga, King Shan
+Vyan
+Satvy, Savya, Saayan
+
+Vyan
+Male
+undefined
+Satya
+Satvy, Savya, Saayan
+
+Drita
+Male
+Ambi, Chit
+Jaya
+Jata, Driya
+
+Jaya
+Female
+undefined
+Drita
+Jata, Driya
+
+Vrita
+Male
+Ambi, Chit
+undefined
+undefined
+
+Vila
+Male
+Lika, Vich
+Jnki
+Lavnya
+
+Jnki
+Female
+undefined
+Vila
+Lavnya
+
+Chika
+Female
+Lika, Vich
+Kpila
+undefined
+
+Kpila
+Male
+undefined
+Chika
+undefined
+
+Satvy
+Female
+Satya, Vyan
+Asva
+undefined
+
+Asva
+Male
+undefined
+Satvy
+undefined
+
+Savya
+Male
+Satya, Vyan
+Krpi
+Kriya
+
+Krpi
+Female
+undefined
+Savya
+Kriya
+
+Saayan
+Male
+Satya, Vyan
+Mina
+Misa
+
+Mina
+Female
+undefined
+Saayan
+Misa
+
+Jata
+Male
+Jaya, Drita
+undefined
+undefined
+
+Driya
+Female
+Jaya, Drita
+Mnu
+undefined
+
+Mnu
+Male
+undefined
+Driya
+undefined
+
+Lavnya
+Female
+Jnki, Vila
+Gru
+undefined
+
+Gru
+Male
+undefined
+Lavnya
+undefined
+
+Kriya
+Male
+Krpi, Savya
+undefined
+undefined
+
+Misa
+Male
+Mina, Saayan
+undefined
+undefined
